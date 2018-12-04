@@ -44,7 +44,7 @@
                     <td align="center"><%=rs.getString("UNIVERSIDAD")%></td>
                     <td align="center"><%=rs.getString("GRADO")%></td>
 
-                    <td>
+                    <td align="center">
                         <form action="/verApuntesPremium.jsp" align="center" method="post">
                             <button type="submit" name="Ver apuntes" class="btn btn-default navbar-btn">Ver apuntes</button>
                         </form>

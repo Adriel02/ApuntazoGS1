@@ -32,7 +32,7 @@
                 <tr>
                     <td align="center"><%=rs.getString("NOMBRE")%></td>
                     <td align="center"><%=rs.getString("UNIVERSIDAD")%></td>
-                    <td>
+                    <td align="center">
                         <form action="/FrontServlet" method="post" align="center">
                             <input type="hidden" name="command" value="Acciones.mostrarAsignaturasRegistrado">
                             <button type="submit" name="Mostrar Asignaturas" class="btn btn-default navbar-btn">Ver Asignaturas</button>

@@ -35,7 +35,7 @@
                 <tr>
                     <td align="center"><%=rs.getString("NOMBRE")%></td>
                     <td align="center"><%=rs.getString("UNIVERSIDAD")%></td>
-                    <td>
+                    <td align="center">
                         <form action="/FrontServlet" method="post" align="center">
                             <input type="hidden" name="asignaturaFiltrado" value="<%=rs.getString("UNIVERSIDAD")%>">
                             <input type="hidden" name="gradeFiltrado" value="<%=rs.getString("NOMBRE")%>">
