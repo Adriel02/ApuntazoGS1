@@ -26,6 +26,9 @@
                     <th align="center">
                         Universidad
                     </th>
+                    <th align="center">
+                        Grado
+                    </th>
                 </tr>
                 <%
                     ResultSet rs = (ResultSet) request.getAttribute("asignaturas");
@@ -35,6 +38,7 @@
                     <td align="center"><%=rs.getString("NOMBRE")%></td>
                     <td align="center"><%=rs.getInt("CURSO")%></td>
                     <td align="center"><%=rs.getString("UNIVERSIDAD")%></td>
+                    <td align="center"><%=rs.getString("GRADO")%></td>
 
                 </tr>
                 <%}

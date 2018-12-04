@@ -36,7 +36,6 @@
                     <button type="submit" name="Comentar" class="btn btn-default navbar-btn">Comentar</button>
                 </div>
             </div>
-            <%@ include file="/footerPremium.html" %>
         </div>
         
 

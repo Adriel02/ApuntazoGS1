@@ -24,7 +24,7 @@
                 </tr>
                 <tr>
                     <td align="center">
-                        <button class="btn btn-default navbar-btn" onClick="window.open('/Recursos/Apuntes/1 INTRODUCCIÓN A LA GESTIÓN DEL SW.pdf')">
+                        <button class="btn btn-default navbar-btn" onClick="window.open('/Recursos/Apuntes/1 INTRODUCCION A LA GESTION DEL SW.pdf')">
                             <span class="icon">1 INTRODUCCIÓN A LA GESTIÓN DEL SW</span>
                         </button>
                          26 <span class="glyphicon glyphicon-thumbs-up"></span> 7 <span class="glyphicon glyphicon-thumbs-down"></span>

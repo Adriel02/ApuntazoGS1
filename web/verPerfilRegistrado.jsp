@@ -40,7 +40,7 @@
                         (Se requiere un mínimo de 20€ para solitar el ingreso.)
                     </th>
                     <th>
-                        <button cclass="btn btn-default navbar-btn">
+                        <button cclass="btn btn-default navbar-btn" onclick="myFunction()">
                             <span class="icon">Solitar ingreso</span>
                         </button>
                     </th>
@@ -64,5 +64,10 @@
             </table>
         </div>
         <%@ include file="/footerRegistrado.html" %>
+         <script>
+            function myFunction() {
+                alert("No has alcanzado el mínimo de 20€");
+            }
+        </script>
     </body>
 </html>
